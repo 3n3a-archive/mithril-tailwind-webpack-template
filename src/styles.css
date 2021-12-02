@@ -1,0 +1,38 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.app {
+    @apply mt-5;
+}
+
+.main-container {
+    @apply md:container md:mx-auto flex flex-col justify-start mt-4 space-y-4 mx-2 pt-16 min-h-screen;
+}
+
+.header {
+    @apply py-4 fixed top-0 w-full bg-white shadow-md;
+}
+
+.navbar {
+    @apply flex justify-center space-x-4;
+}
+
+.footer {
+    @apply flex flex-col items-center md:flex-row md:justify-center py-4 text-white bg-gray-600;
+}
+
+.btn {
+    @apply font-bold py-2 px-4 rounded;
+}
+
+.btn-blue {
+    @apply bg-blue-500 hover:bg-blue-700 text-white;
+}
+
+.btn-green {
+    @apply bg-green-500 hover:bg-green-700 text-white;
+}
+
