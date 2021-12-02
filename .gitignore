@@ -1,6 +1,7 @@
 .cache/
 coverage/
 node_modules/
+dist/
 *.log
 
 # OS generated files
