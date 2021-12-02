@@ -1,14 +1,16 @@
 {
   "scripts": {
     "dev": "webpack-dev-server --mode development",
-    "prod": "webpack --mode production"
+    "prod": "NODE_ENV=production webpack --mode production"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "css-loader": "^6.5.1",
+    "cssnano": "^5.0.12",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.4.5",
     "postcss-cli": "^9.0.2",
+    "postcss-import": "^14.0.2",
     "postcss-loader": "^6.2.1",
     "style-loader": "^3.3.1",
     "tailwindcss": "^2.2.19",
