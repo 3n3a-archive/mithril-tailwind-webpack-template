@@ -6,8 +6,13 @@
 * [Tutorial Webpack Tailwind, Css, React](https://blog.logrocket.com/webpack-from-scratch-for-tailwind-css-with-react/)
   * got info form here about config files
 * [Tailwind Installation as PostCSS Plugin](https://tailwindcss.com/docs/installation#add-tailwind-as-a-post-css-plugin)
-* [Mithril.js Introducitn](https://mithril.js.org/index.html)
 * [Tailwind Building for Production](https://tailwindcss.com/docs/installation#building-for-production)
+
+### Mithril.js
+
+* [Mithril.js Introducitn](https://mithril.js.org/index.html)
+  * [Routing](https://mithril.js.org/index.html#routing)
+* [Components](https://mithril.js.org/components.html)
 
 ## Design
 

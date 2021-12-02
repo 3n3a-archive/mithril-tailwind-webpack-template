@@ -18,8 +18,8 @@ let Navbar = {
 let Contact = {
     view: function() {
         return m("div", {class: 'contact'},  [
-            m("p", {href: "#!/site1", class: ""}, "Site 1"),
-            m("p", {href: "#!/size2", class: ""}, "Site 2")
+            m("p", {class: ""}, "Site 1"),
+            m("p", {class: ""}, "Site 2")
         ])
     }
 }
